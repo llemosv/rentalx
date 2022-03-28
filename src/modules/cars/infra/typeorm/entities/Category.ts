@@ -1,5 +1,5 @@
-import { v4 as uuidv4 } from "uuid";
 import { Entity, PrimaryColumn, Column, CreateDateColumn } from "typeorm";
+import { v4 as uuidv4 } from "uuid";
 
 @Entity("categories")
 class Category {
